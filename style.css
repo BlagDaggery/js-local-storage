@@ -57,25 +57,13 @@ h2 {
     cursor: pointer;
 }
 
-.plates input {
-    display: none;
-}
-
-.plates input+label:before {
-    content: "⬜️";
-    margin-right: 10px;
-}
-
-.plates input:checked+label:before {
-    content: "🌮";
-}
-
-.add-items {
+.add-items-row {
     margin-top: 20px;
 }
 
-.add-items input {
+.add-items input,
+.add-items button {
     padding: 10px;
-    outline: 0;
     border: 1px solid rgba(0, 0, 0, 0.1);
+    cursor: pointer;
 }
